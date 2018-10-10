@@ -4,6 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".login">
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="77dp"
+        android:layout_height="35dp"
+        android:text="LOGIN"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="58dp" />
 </android.support.constraint.ConstraintLayout>
